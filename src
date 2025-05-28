@@ -27,7 +27,6 @@ module top_module(
     );
 endmodule
 
-
 module timer(
     input        clk,
     input        reset,
@@ -49,7 +48,6 @@ module timer(
     end
 endmodule
 
-
 module hall_sensor(
     input  clk,
     input  reset,
@@ -68,7 +66,6 @@ module hall_sensor(
         end
     end
 endmodule
-
 
 module RPM_measure(
     input              clk,
@@ -116,7 +113,6 @@ module RPM_measure(
     end
 endmodule
 
-
 module seven_seg(
     input        clk,
     input [31:0] rpm,
@@ -161,7 +157,6 @@ module seven_seg(
         sel <= sel + 1;
     end
 endmodule
-
 
 module display(
     input        clk,
